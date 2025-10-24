@@ -1,0 +1,5 @@
+--a weil etwieder e gibt eine exec()  
+-> funktion kann ungelcih sein wegen parametern oder gleich ohne exec oder geiche parameter.
+
+-b, 
+Informationen zu Eltern- und Kindprozessen.

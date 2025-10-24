@@ -1,0 +1,8 @@
+Die Reihenfolge der Nachrichten ist unbestimmt, da Parent und
+Child die gleichen Sleep-Intervalle verwenden. Da sich Parent und Child die Dateien teilen, schreiben auch beide in dieselbe Standardausgabe, und wer fruher geschedulet wird ¨
+dessen Nachricht erscheint zuerst. Ohne wait() k¨onnen außerdem weniger Nachrichten
+des Kindes erscheinen, wenn das Parent terminiert bevor das Kind fertig ist.
+
+i ist eine lokale Variable, die auf dem Stack gespeichert wird. Jeder Prozess hat seinen eigenen Stack,
+daher k¨onnen die beiden Prozesse i unabh¨angig
+voneinander verwenden.

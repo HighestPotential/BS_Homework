@@ -1,0 +1,8 @@
+Ein Prozess wird zu einem Zombie, wenn folgendes passiert: Der Prozess beendet sich
+mit einem exit()-Aufruf. Der Kernel speichert den Ruckgabewert und den Exit-Status ¨
+des Prozesses in der Prozessliste. Solange der Elternprozess den Ruckgabestatus noch ¨
+nicht mit einem wait()-Aufruf abgefragt hat, bleibt der Prozess als Zombie-Prozess in
+der Prozessliste um diese Informationen vorzuhalten.
+
+1. mit wait()
+2. das Elternprozess ist zu ende.

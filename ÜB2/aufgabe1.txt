@@ -1,0 +1,8 @@
+(a) Was ist ein Prozess?
+Ein Prozess ist die Ausführung (Instanz)
+eines Programms mit einem bestimmten Zustand zu einem bestimmten Zeitpunkt.
+(b) Was ist die Beziehung zwischen Prozess und Thread?
+Thread leäuft in einem Prozess und hat, das Speicherplatz  und Ressourcen werden vom Prozess benutzt.
+
+Ein Prozess ist wie ein „Container“ für Threads.
+Ein Prozess kann einen oder mehrere Threads enthalten.
