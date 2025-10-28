@@ -9,7 +9,7 @@ void swap(int *a, int *b) {
 }
 
 // Function to calculate the sum of two integers using pointers
-int sum(int *a, int *b) {
+int sum(int* a, int *b) {
     int sumOf2= *a+*b;
     return sumOf2;
     // Your code here

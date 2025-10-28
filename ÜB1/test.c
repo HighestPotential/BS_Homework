@@ -67,5 +67,5 @@ return 0;
 
 // GPU NVIDIA 5090 → verarbeitet Grafikdaten, unterstützt Berechnungen für Programme.
 
-Aufgabe 2:
-a) man <Command>
+// Aufgabe 2:
+// a) man <Command>
