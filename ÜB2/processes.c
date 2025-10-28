@@ -6,7 +6,7 @@
 
 
 int main(){
-    int i =0;
+    int i = 0;
     pid_t curPid = fork();
 
     if (curPid==0){
@@ -17,10 +17,12 @@ int main(){
         }
     }else if( curPid==-1){
        fprintf( stderr, "Erstellen des Kindes fehlgeschlagen.\n");
+
     }else{
+
         for(i;i<5; i++){
-        printf("Das Kind hat die PID %d \n", curPid);
-        sleep(2);
+            printf("Das Kind hat die PID %d \n", curPid);
+            sleep(2);
         }
     }
 
