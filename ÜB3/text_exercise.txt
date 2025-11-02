@@ -1,0 +1,30 @@
+1.a)
+• Ein CPU-Scheduling-Algorithmus bestimmt, welche Prozesse zu welchem Zeitpunkt und in welcher Reihenfolge 
+von der CPU bearbeitet werden. ¨
+• Fur ¨ n Prozesse, die in ohne Unterbrechung laufen, gibt es genau n! verschiedene
+Permutationen von Schedules.
+
+b)pr¨aemptives: Von betriebsystem kann der Übergang Ready ->Running asugelöst
+und visa verca
+
+c)CPU-bound Programme sind Programme, die hauptsächlich Rechenzeit benötigen.
+I/O-bound Programme verbringen den größten Teil
+ ihrer Zeit mit Warten auf Ein- oder Ausgabeoperationen
+
+ I/O-gebundenen ¨
+Prozessen, da dann die Reaktionszeit wird geringer und IO 
+Geräte werden glecihzeitig mit CPU arbeiten -> Effizient
+
+d) 
+(d) Was sind m¨ogliche Ziele eines Scheduling-Algorithmus? 
+Wie l¨asst sich die Leistung eines Scheduling-Algorithmus bewerten?
+
+Durchlaufzeit
+Reaktionszeit
+Fairness
+Wartezeit
+Overhead
+
+2)b)
+wenn das Zeitscheibenintervall genau os groß ist wie der Längste Prozess
+
