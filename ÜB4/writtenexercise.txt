@@ -1,0 +1,19 @@
+1.a)
+Schutz; Transparenz; Effizeinz; Sharing;
+
+b)
+Code, Stack , Queue, Statische Daten
+c)
+
+d)
+MMU (kontroliert von BS)
+
+e) externe wenn z.B. der stack oben von dem speicher ist und 
+wenig platz hinterlässt so das der anfägliche platz zu klein 
+ist und nciht genutzt werden kann.
+
+interne: innerhalb von einem Block kann ein shr kleiner Speicherplatz 
+nicht genutzt werden
+
+2.
+a)
