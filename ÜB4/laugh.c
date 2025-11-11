@@ -6,7 +6,7 @@ bool laughed = false;
 
 char *laugh(int laugh_length) {
 	// "ha" * laugh_length + '\0' byte
-	char *ptr = (char *) malloc(sizeof(char) * 2 * laugh_length + 1); 
+	char *ptr = (char *) malloc(sizeof(char) * 2 * laugh_length + 1);//check if return == NULL 
 	for (int i = 0; i < 2 * laugh_length; i+=2) {
 		ptr[i] = 'h';
 		ptr[i+1] = 'a';
